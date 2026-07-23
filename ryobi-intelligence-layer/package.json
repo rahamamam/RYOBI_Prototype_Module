@@ -1,0 +1,28 @@
+{
+  "name": "ryobi-intelligence-layer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An interactive simulation of the AI-Powered Social Intelligence Platform proposed for RYOBI: Sprout Social as the data layer, an orchestrator as the connective layer, Claude as the reasoning layer, and the marketing team as the decision layer.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "0.487.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.12",
+    "@types/node": "^22.20.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.7.0",
+    "tailwindcss": "4.1.12",
+    "typescript": "5.6.3",
+    "vite": "6.3.5"
+  }
+}
